@@ -1,0 +1,31 @@
+{
+  "name": "TRABAJO PRÁCTICO 2 - AWP",
+  "description": "Browse and discover TV series, view details, and save your favorites for offline viewing. This PWA integrates with the TVMaze API to provide comprehensive TV series information.",
+  "short_name": "TP2 - AWP",
+  "start_url": "index.html",
+  "scope": "/awp/",
+  "lang": "en-US",
+  "theme_color": "#0d6efd",
+  "display": "fullscreen",
+  "background_color": "#f8f9fa",
+  "icons": [
+    {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
