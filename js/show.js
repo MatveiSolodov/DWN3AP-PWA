@@ -118,7 +118,19 @@ function copyToClipboard() {
       icon: "icons/android-chrome-192x192.png",
       tag: "link-copied"
     });
-  }).catch(() => {});
+  }).catch(() => {
+    const textArea = document.createElement("textarea");
+    textArea.value = window.location.href;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+    
+    showNotification("Enlace copiado", {
+      body: "Enlace a la serie copiado al portapapeles",
+      icon: "icons/android-chrome-192x192.png",
+      tag: "link-copied"
+  });
   });
 }
 
