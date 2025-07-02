@@ -122,7 +122,6 @@ window.addEventListener("DOMContentLoaded", function () {
   const crewList = document.getElementById("actors");
 
   updateConnectionStatus();
-  requestNotificationPermission();
   initInstallPrompt();
 
   window.addEventListener('online', updateConnectionStatus);
@@ -280,7 +279,7 @@ window.addEventListener("DOMContentLoaded", function () {
         <div class="col-12 text-center">
           <div class="alert alert-warning">
             <h4>Offline Mode</h4>
-            <p>No se pueden cargar los shows. Verifica tu conexión a internet.</p>
+            <p>Shows can't be loaded. Please check your internet connection.</p>
           </div>
         </div>
       `;
