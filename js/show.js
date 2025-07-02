@@ -118,19 +118,7 @@ function copyToClipboard() {
       icon: "icons/android-chrome-192x192.png",
       tag: "link-copied"
     });
-  }).catch(() => {
-    const textArea = document.createElement("textarea");
-    textArea.value = window.location.href;
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textArea);
-    
-    showNotification("Link copied", {
-      body: "Link to the series copied to clipboard",
-      icon: "icons/android-chrome-192x192.png",
-      tag: "link-copied"
-    });
+  }).catch(() => {});
   });
 }
 
