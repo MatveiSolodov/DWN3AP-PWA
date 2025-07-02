@@ -2,7 +2,7 @@
   "name": "TRABAJO PRÁCTICO 2 - AWP",
   "description": "Browse and discover TV series, view details, and save your favorites for offline viewing. This PWA integrates with the TVMaze API to provide comprehensive TV series information.",
   "short_name": "TP2 - AWP",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "scope": "/awp/",
   "lang": "en-US",
   "theme_color": "#0d6efd",
