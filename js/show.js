@@ -287,16 +287,16 @@ window.addEventListener("DOMContentLoaded", () => {
                   <i class="bi bi-calendar3"></i> Show information:
                 </h6>
                 <p class="mb-1">
-                  <strong>Premiere:</strong> ${showData.premiered || 'N/A'}
+                  <strong>📽️ Premiere:</strong> ${showData.premiered || 'N/A'}
                 </p>
                 <p class="mb-1">
-                  <strong>Status:</strong> ${showData.status || 'N/A'}
+                  <strong>💿 Status:</strong> ${showData.status || 'N/A'}
                 </p>
                 <p class="mb-1">
-                  <strong>Genres:</strong> ${showData.genres?.join(', ') || 'N/A'}
+                  <strong>🎞️ Genres:</strong> ${showData.genres?.join(', ') || 'N/A'}
                 </p>
                 <p class="mb-1">
-                  <strong>Channel:</strong> ${showData.network?.name || showData.webChannel?.name || 'N/A'}
+                  <strong>📺 Channel:</strong> ${showData.network?.name || showData.webChannel?.name || 'N/A'}
                 </p>
                 ${showData.externals?.imdb ? 
                   `<p class="mb-1">
